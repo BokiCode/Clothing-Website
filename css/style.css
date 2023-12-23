@@ -58,3 +58,19 @@
 	border: 1px solid #d3d3d3 !important;
 	border-radius: 5px !important;
 }
+.our-story-background {
+	background: radial-gradient(circle, rgba(0,0,0,0.6951155462184874) 0%, rgba(255,255,255,0.700717787114846) 100%),
+	url('../images/our_story_image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 588px;
+}
+.our-blog-background {
+	background: radial-gradient(circle, rgba(0,0,0,0.6951155462184874) 0%, rgba(255,255,255,0.700717787114846) 100%),
+	url('../images/our_story_image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 588px;
+}
