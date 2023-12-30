@@ -70,24 +70,45 @@
     border-radius: 5px !important;
 }
 
-.our-story-background {
-    background-size: cover;
+.our-story-background, .our-blog-background {
     background: radial-gradient(
             circle,
             rgba(0, 0, 0, 0.6951155462184874) 0%,
             rgba(255, 255, 255, 0.700717787114846) 100%),
     url('../images/our_story_image.jpg') no-repeat center;
     height: 588px;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 .our-blog-background {
-    background-size: cover;
     background: radial-gradient(
             circle,
             rgba(0, 0, 0, 0.6951155462184874) 0%,
             rgba(255, 255, 255, 0.700717787114846) 100%),
-    url('../images/our_story_image.jpg') no-repeat center;
-    height: 588px;
-    background-size: cover;
+    url('../images/our_blog_image.jpg') no-repeat center;
+}
+.accessories-card-background, .shoes-card-background, .jackets-card-background {
+    height: 259px;
+    background-size: cover !important;
+}
+.accessories-card-background {
+    background: radial-gradient(
+            circle,
+            rgba(0, 0, 0, 0.6951155462184874) 0%,
+            rgba(255, 255, 255, 0.700717787114846) 100%),
+    url('../images/accessories_image.jpg') no-repeat center;
+}
+.shoes-card-background {
+    background: radial-gradient(
+            circle,
+            rgba(0, 0, 0, 0.6951155462184874) 0%,
+            rgba(255, 255, 255, 0.700717787114846) 100%),
+    url('../images/shoes_image.jpg') no-repeat center;
+}
+.jackets-card-background {
+    background: radial-gradient(
+            circle,
+            rgba(0, 0, 0, 0.6951155462184874) 0%,
+            rgba(255, 255, 255, 0.700717787114846) 100%),
+    url('../images/jackets_image.jpg') no-repeat center;
 }
