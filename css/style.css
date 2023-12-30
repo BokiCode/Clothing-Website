@@ -9,6 +9,9 @@
 .bg-gray {
     background-color: #f1eeee;
 }
+.bg-darkgray {
+    background-color: #c4c4c4;
+}
 
 .h-440 {
     height: 440px;
@@ -111,4 +114,8 @@
             rgba(0, 0, 0, 0.6951155462184874) 0%,
             rgba(255, 255, 255, 0.700717787114846) 100%),
     url('../images/jackets_image.jpg') no-repeat center;
+}
+.icon-background-circle {
+    padding: 15px;
+    border-radius: 50%;
 }
